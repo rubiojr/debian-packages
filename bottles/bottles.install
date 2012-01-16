@@ -1,0 +1,7 @@
+# FIXME: data/ dir found in source. Consider installing it somewhere.
+# Examples:
+data/bottles.desktop /usr/share/applications/
+data/templates.yml /usr/share/bottles/
+icons/* /usr/share/bottles/icons/
+icons/bottles.svg /usr/share/icons/
+ui/* /usr/share/bottles/ui/

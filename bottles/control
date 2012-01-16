@@ -1,0 +1,21 @@
+Source: bottles
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sergio Rubio <rubiojr@frameos.org>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~)
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/bottles.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/bottles.git;a=summary
+Homepage: http://bottles.frameos.org
+XS-Ruby-Versions: all
+
+Package: bottles
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-qt4, ruby-qt4-webkit
+# rspec (>= 0, development), simplecov (>= 0, development)
+Description: Turn Your Favorite Web Apps into Real Linux Apps ;)
+ Create self-contained web apps for linux. It's the Fluid.app (Mac OSX)
+ equivalent for linux.
