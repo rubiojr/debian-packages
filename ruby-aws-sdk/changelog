@@ -1,0 +1,5 @@
+ruby-aws-sdk (1.2.6-1) precise; urgency=low
+
+  * Initial release 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Tue, 17 Jan 2012 23:54:25 +0100

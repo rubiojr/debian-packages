@@ -1,0 +1,11 @@
+ruby-boxgrinder-core (0.3.10-3) precise; urgency=low
+
+  * Skip tests
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 03:08:14 +0100
+
+ruby-boxgrinder-core (0.3.10-1) precise; urgency=low
+
+  * Initial release
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 02:51:42 +0100

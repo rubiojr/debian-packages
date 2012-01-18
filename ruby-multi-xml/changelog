@@ -1,0 +1,11 @@
+ruby-multi-xml (0.4.1-2) precise; urgency=low
+
+  * Disabled tests for now 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 02:16:12 +0100
+
+ruby-multi-xml (0.4.1-1) precise; urgency=low
+
+  * Initial release
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 00:03:07 +0100

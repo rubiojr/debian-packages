@@ -1,0 +1,19 @@
+Source: boxgrinder-build
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sergio Rubio <rubiojr@frameos.org>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~)
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/boxgrinder-build.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/boxgrinder-build.git;a=summary
+Homepage: http://boxgrinder.org/
+XS-Ruby-Versions: all
+
+Package: boxgrinder-build
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-boxgrinder-core, ruby-net-sftp, ruby-net-ssh, ruby-progressbar, ruby-rest-client, ruby-nokogiri, ruby-builder, libguestfs-tools, guestmount, ubuntu-vm-builder, ruby-hashery, ruby-aws-sdk, ruby-guestfs, libvirt-ruby, ruby-boxgrinder-ubuntu-plugin
+Description: A tool for creating appliances from simple plain text files for various virtual environments.
+ A tool for creating appliances from simple plain text files for various virtual environments.

@@ -1,0 +1,5 @@
+--- 
+- spec/helper.rb
+- spec/multi_xml_spec.rb
+- spec/parser_shared_example.rb
+- spec/speed.rb

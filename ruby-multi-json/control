@@ -1,0 +1,20 @@
+Source: ruby-multi-json
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sergio Rubio <rubiojr@frameos.org>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~)
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-multi-json.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-multi-json.git;a=summary
+Homepage: http://github.com/intridea/multi_json
+XS-Ruby-Versions: all
+
+Package: ruby-multi-json
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# rake (~> 0.9, development), rdoc (~> 3.9, development), rspec (~> 2.6, development), simplecov (~> 0.4, development)
+Description: A gem to provide swappable JSON backends.
+ A gem to provide swappable JSON backends utilizing Yajl::Ruby, the JSON gem, JSON pure, or a vendored version of okjson.

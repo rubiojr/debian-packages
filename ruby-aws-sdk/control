@@ -1,0 +1,19 @@
+Source: ruby-aws-sdk
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sergio Rubio <rubiojr@frameos.org>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~)
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-aws-sdk.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-aws-sdk.git;a=summary
+Homepage: http://aws.amazon.com/sdkforruby
+XS-Ruby-Versions: all
+
+Package: ruby-aws-sdk
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-uuidtools, ruby-nokogiri, ruby-json, ruby-httparty
+Description: AWS SDK for Ruby
+ AWS SDK for Ruby

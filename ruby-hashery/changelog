@@ -1,0 +1,11 @@
+ruby-hashery (1.5.0-2) precise; urgency=low
+
+  * replace ruby-blackslate with ruby-builder dep
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 13:09:43 +0100
+
+ruby-hashery (1.5.0-1) precise; urgency=low
+
+  * Initial release
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 12:51:16 +0100

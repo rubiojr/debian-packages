@@ -1,0 +1,11 @@
+ruby-httparty (0.8.1-2) precise; urgency=low
+
+  * Disable tests
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 02:02:00 +0100
+
+ruby-httparty (0.8.1-1) precise; urgency=low
+
+  * Initial release 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Tue, 17 Jan 2012 23:58:57 +0100

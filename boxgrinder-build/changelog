@@ -1,0 +1,41 @@
+boxgrinder-build (0.10.0-7) precise; urgency=low
+
+  * added ruby-boxgrinder-ubuntu-plugin dep 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 14:52:35 +0100
+
+boxgrinder-build (0.10.0-6) precise; urgency=low
+
+  * added ruby-aws-sdk, libvirt-ruby, ruby-guestfs deps
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 13:21:29 +0100
+
+boxgrinder-build (0.10.0-5) precise; urgency=low
+
+  * fix ruby-boxgrinder-core dep 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 13:18:15 +0100
+
+boxgrinder-build (0.10.0-4) precise; urgency=low
+
+  * Added missing ruby-hashery dep
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 13:05:09 +0100
+
+boxgrinder-build (0.10.0-3) precise; urgency=low
+
+  * Added libguestfs-tools and ubuntu-vm-builder deps
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 12:42:03 +0100
+
+boxgrinder-build (0.10.0-2) precise; urgency=low
+
+  * Skip tests for now
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 01:35:23 +0100
+
+boxgrinder-build (0.10.0-1) precise; urgency=low
+
+  * Initial release 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 01:18:32 +0100
