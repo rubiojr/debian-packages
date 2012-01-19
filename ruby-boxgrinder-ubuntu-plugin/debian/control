@@ -14,6 +14,6 @@ XS-Ruby-Versions: all
 Package: ruby-boxgrinder-ubuntu-plugin
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, boxgrinder-build
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, boxgrinder-build, rubygems
 Description: Ubuntu OS boxgrinder plugin
  Ubuntu OS boxgrinder plugin

@@ -1,3 +1,9 @@
+ruby-boxgrinder-ubuntu-plugin (0.2.4-2) precise; urgency=low
+
+  * Add rubygems dependency 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Wed, 18 Jan 2012 22:06:23 +0100
+
 ruby-boxgrinder-ubuntu-plugin (0.2.4-1) precise; urgency=low
 
   * Bumped version
