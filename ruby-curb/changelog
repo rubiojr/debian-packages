@@ -1,0 +1,11 @@
+ruby-curb (0.7.18-2) precise; urgency=low
+
+  * Proper copyright formatting to make lintian happy
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Thu, 19 Jan 2012 19:18:01 +0100
+
+ruby-curb (0.7.18-1) precise; urgency=low
+
+  * Initial release 
+
+ -- Sergio Rubio <rubiojr@frameos.org>  Thu, 19 Jan 2012 17:46:50 +0100

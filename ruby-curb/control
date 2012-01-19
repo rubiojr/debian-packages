@@ -1,0 +1,19 @@
+Source: ruby-curb
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sergio Rubio <rubiojr@frameos.org>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.13~), libcurl4-openssl-dev
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-curb.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-curb.git;a=summary
+Homepage: http://curb.rubyforge.org/
+XS-Ruby-Versions: all
+
+Package: ruby-curb
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+Description: Ruby libcurl bindings
+ Curb (probably CUrl-RuBy or something) provides Ruby-language bindings for the libcurl(3), a fully-featured client-side URL transfer library. cURL and libcurl live at http://curl.haxx.se/
